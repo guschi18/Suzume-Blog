@@ -1,5 +1,5 @@
 type Base = {
-    _createdAt: string;
+    publishedAt: string;
     _id: string;
     _rev: string;
     _type: string;

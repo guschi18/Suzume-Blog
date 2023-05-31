@@ -83,7 +83,7 @@ export async function getServerSideProps(context) {
 
   // Finally, return the props
   const query = groq`
-  *[_type == "post" && references(categories._ref, "690f205a-be57-4488-b8fd-f11452dbab33")] {
+  *[_type == "post" && references(categories._ref, )] {
     ...,
     author->,
     categories[]->,
