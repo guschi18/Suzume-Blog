@@ -57,7 +57,7 @@ return (
                             <h1 className="text-4xl font-extrabold">{post.title}</h1>
 
                                 <p>
-                                {new Date(post._createdAt).toLocaleDateString("en", {
+                                {new Date(post.publishedAt).toLocaleDateString("en", {
                                     day: "numeric",
                                     month: "long",
                                     year: "numeric",
