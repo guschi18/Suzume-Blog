@@ -6,6 +6,7 @@ import { PortableText } from "@portabletext/react";
 import { RichTextComponents } from "@/components/RichTextComponents";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 type Props = {
     params: {
@@ -45,6 +46,7 @@ const post: Post = await client.fetch(query, { slug });
 return (
     <>
     <Header />
+    <Navbar />
     <article className="px-10 pb-28 border-t border-black pt-4">
         <section className="space-y-2 text-white">
             <div className="relative min-h-56 flex flex-col md:flex-row justify-between">
