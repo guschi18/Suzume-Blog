@@ -4,8 +4,9 @@ import BlogList from "../../components/BlogList";
 import Banner from "../../components/Banner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import NFT from "@/components/NFT";
-import Subscribe from "../../components/Subscribe" 
+import Subscribe from "../../components/Subscribe";
+import Navbar from "../../components/Navbar";
+import Video from "@/components/Video";
 
 
 
@@ -30,8 +31,9 @@ const posts = await client.fetch(query);
 return (
   <>
   <Header />
+  <Navbar />
   <Banner />
-  <NFT />
+  <Video />
   <BlogList posts={posts} />
   <Subscribe />
   <Footer />

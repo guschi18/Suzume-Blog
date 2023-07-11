@@ -1,7 +1,7 @@
 import '../../../../styles/globals.css';
 import { Inter } from 'next/font/google';
-import LoginHeader from '@/components/LoginHeader';
-import LoginFooter from '@/components/LoginFooter';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="max-w-7xl mx-auto">
-        <LoginHeader />
+        <Header />
         {children}
-        <LoginFooter />
+        <Footer />
         </body>
     </html>
   )

@@ -1,8 +1,6 @@
 import Link from "next/link";
 import logo from "../images/logo.png"
 import Image from 'next/image'
-import LoginButton from "./LoginButton";
-
 
 
 function Header() {
@@ -30,9 +28,6 @@ function Header() {
         />
       </svg>
     </Link>
-  </div>
-  <div className="mt-8 sm:mt-0 flex items-end ">
-  <LoginButton/>
   </div>
 </div>
     </header>
