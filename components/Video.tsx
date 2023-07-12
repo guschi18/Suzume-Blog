@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <div className=" grid grid-cols-1 md:grid-cols-2 pt-2 gap-2 ">
       <div className='flex mt-9 justify-center'>
-    <iframe id="ytplayer"  width="420" height="238"
+    <iframe  width="420" height="238"
   src="http://www.youtube.com/embed/E0PHnSgBCZI?autoplay=1&origin=http://example.com"
    /></div>
     <div className='flex justify-center'>
