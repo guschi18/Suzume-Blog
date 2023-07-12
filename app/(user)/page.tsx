@@ -5,7 +5,6 @@ import Banner from "../../components/Banner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Subscribe from "../../components/Subscribe";
-import Navbar from "../../components/Navbar";
 import Video from "@/components/Video";
 
 
@@ -31,7 +30,6 @@ const posts = await client.fetch(query);
 return (
   <>
   <Header />
-  <Navbar />
   <Banner />
   <Video />
   <BlogList posts={posts} />
