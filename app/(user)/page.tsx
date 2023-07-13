@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Subscribe from "../../components/Subscribe";
 import Video from "@/components/Video";
+import Video2 from "@/components/Video2";
 
 
 
@@ -33,6 +34,7 @@ return (
   <Banner />
   <Video />
   <BlogList posts={posts} />
+  <Video2 />
   <Subscribe />
   <Footer />
   </>
