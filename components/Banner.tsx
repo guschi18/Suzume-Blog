@@ -7,8 +7,8 @@ function Banner() {
     <div>
 
     <div className="flex justify-between items-center border-y border-black py-10 lg:py-0">
-      <div className="px-10 space-y-5">
-        <h1 className="text-5xl  font-serif"><span className="underline decoraction-4">Shita-kiri Suzume BLOG</span>{" "}<br></br> Current news and developments for the community! </h1>
+      <div className="px-8 space-y-5">
+        <h1 className="text-4xl  font-serif"><span className="underline decoraction-4 text-5xl">Shita-kiri Suzume BLOG</span>{" "}<br></br> Current news and developments for the community! </h1>
       </div>
 
     
