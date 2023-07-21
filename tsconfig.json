@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "pages/nft/shitakirisuzume.jsx", "pages/nftlogin/nftlogin.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "pages/nft/shitakirisuzume.jsx", "pages/nftlogin/nftlogin.tsx", "components/Carousel.jsx"],
   "exclude": ["node_modules"]
 }
