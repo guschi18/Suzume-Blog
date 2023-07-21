@@ -1,17 +1,12 @@
-import React from 'react'
-
-const Home: React.FC = () => {
-  return (
-    <div className=" grid grid-cols-1 md:grid-cols-2 pt-2 gap-2 ">
-      <div className='flex mt-9 justify-center'>
-    <iframe id="jt"  width="420" height="238"
-  src="https://www.youtube.com/embed/E0PHnSgBCZI"
-   /></div>
-    <div className='flex justify-center'>
-    <iframe width="420" height="315" src="https://player.vimeo.com/video/790485662"></iframe>
-    </div>
-    </div>
-   )
- }
-
-export default Home
+function Video(){
+return (
+<div className="flex justify-center mt-1 pt-4 ">
+  <video 
+  className="flex max-h-96"
+  src="https://firebasestorage.googleapis.com/v0/b/suzume-82712.appspot.com/o/Shita-Kiri-Suzume_%20An%20Origin%20Story.mp4?alt=media&token=54811c25-9717-40a4-b4f9-8e26c9ccdfbb"
+  controls
+  ></video>
+</div>
+)
+}
+export default Video;

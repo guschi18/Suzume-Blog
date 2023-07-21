@@ -3,7 +3,6 @@ import urlFor from "@/lib/urlFor";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import ClientSideRoute from "./ClientSideRoute";
 
-
 type Props = {
     posts: Post[];
 };
@@ -13,7 +12,7 @@ function BlogList({posts}: Props) {
         <div className="grid grid-cols-1 md:grid-cols-2 px-10 pt-6 gap-10 gap-y-16 pb-24">
         {/*Posts */}
         {posts.map(post => (
-          <ClientSideRoute key={post._id} route={`post2/${post.slug.current}`}>
+          <ClientSideRoute key={post._id} route={`post/${post.slug.current}`}>
             <div className="flex flex-col group cursor-pointer">
               <div className="relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
                 <Image className="object-cover object-center
@@ -28,7 +27,7 @@ function BlogList({posts}: Props) {
                     <p className="font-bold text-lg">{post.title}</p>
                     <p className="text-s">
                         {new Date(post.publishedAt).toLocaleDateString
-                        ("de", {
+                        ("en", {
                         day: "numeric",
                         month: "long",
                         year: "numeric",

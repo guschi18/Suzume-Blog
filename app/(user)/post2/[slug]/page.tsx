@@ -29,13 +29,14 @@ return slugRoutes.map(slug => ({
 
 async function Post({params: {slug }}: Props) {
     
-    const query= groq`
-     *[_type=='post' && slug.current == $slug][0]
- {
-    ...,
-    author->,
-    categories[]->
- }`;
+    const query = groq`
+    *[_type == "post2" && references(categories._ref,"01243b22-f6a5-4046-b6f5-40092ee7f20d","01243b22-f6a5-4046-b6f5-40092ee7f20d", "61370841-b442-4f23-98f0-e62ef7587ae2" ) ] {
+      ...,
+      author->,
+      categories[]->,
+    }
+    | order(_createdAt asc)
+    `;
 
 
 const post: Post = await client.fetch(query, { slug });
