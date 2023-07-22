@@ -11,7 +11,7 @@
                   
                 </video>
     </div>
-    <div className="flex justify-center font-serif text-lg mt-4 lg:text-xl">Token Contract: 0x0B452278223D3954F4AC050949D7998e373e7E43</div>
+    <div className="flex justify-center font-serif text-base mt-4 lg:text-xl">Token Contract: 0x0B452278223D3954F4AC050949D7998e373e7E43</div>
     </div>
     )
     }
