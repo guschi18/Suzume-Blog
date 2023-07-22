@@ -30,11 +30,11 @@ function Header() {
     </Link>
     <Link href="https://coinmarketcap.com/currencies/shita-kiri-suzume/">
       <Image
-      className="w-8 cursor-pointer mt-2"
+      className="w-8 ml-2 cursor-pointer mt-2"
       width={500}
       height={500}
       src={CMC}
-      alt="Uniswap"
+      alt="CMC"
     ></Image>
     </Link>
     <Link href="https://app.uniswap.org/#/swap?outputCurrency=0x0b452278223d3954f4ac050949d7998e373e7e43">
