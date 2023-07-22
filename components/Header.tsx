@@ -21,10 +21,19 @@ function Header() {
   <div className="flex justify-end space-x-5 pr-2">
     <Link href="https://twitter.com/s_shitakiri">
     <Image
-      className="w-8 pt-3 cursor-pointer"
+      className="w-9 pt-2 cursor-pointer"
       width={500}
       height={500}
       src={Twitter}
+      alt="Twitter"
+    ></Image>
+    </Link>
+    <Link href="https://coinmarketcap.com/currencies/shita-kiri-suzume/">
+      <Image
+      className="w-8 cursor-pointer mt-2"
+      width={500}
+      height={500}
+      src={CMC}
       alt="Uniswap"
     ></Image>
     </Link>
@@ -36,17 +45,6 @@ function Header() {
       src={Uniswap}
       alt="Uniswap"
     ></Image>
-    </Link>
-    <Link href="https://coinmarketcap.com/currencies/shita-kiri-suzume/">
-      <Image
-      className="w-8 cursor-pointer mt-2"
-      width={500}
-      height={500}
-      src={CMC}
-      alt="Uniswap"
-
-
-      ></Image>
     </Link>
   </div>
 </div>
