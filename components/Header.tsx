@@ -17,7 +17,7 @@ function Header() {
             alt="logo" />
         </Link>
         </div >
-        <div className="sm:inline-flex items-center space-x-5 ml-24">
+        <div className="sm:inline-flex items-center space-x-5">
   <div className="flex justify-end space-x-5 pr-2">
     <Link href="https://twitter.com/s_shitakiri">
     <Image
