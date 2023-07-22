@@ -21,7 +21,7 @@ function Header() {
     <Link href="https://twitter.com/s_shitakiri">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-8 w-7 mt-3"
+        className="h-6 w-7 mt-3"
         fill="currentColor"
         viewBox="0 0 24 24"
       >

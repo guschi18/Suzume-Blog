@@ -9,7 +9,7 @@ type Props = {
 function BlogList({posts}: Props) {
   return (
     <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 px-10 pt-6 gap-10 gap-y-16 pb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-4 pt-6 gap-10 gap-y-16 pb-24">
         {/*Posts */}
         {posts.map(post => (
           <ClientSideRoute key={post._id} route={`post/${post.slug.current}`}>
