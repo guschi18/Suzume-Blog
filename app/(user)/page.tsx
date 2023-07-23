@@ -11,6 +11,7 @@ import Video3 from "@/components/Video3";
 import Banner2 from "@/components/Banner2";
 import BlogList2 from "@/components/BlogList2";
 import Banner3 from "@/components/Banner3";
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -52,6 +53,7 @@ const posts2 = await client.fetch(query2);
 
 return (
   <>
+  <Analytics />
   <Header />
   <Banner />
   <Banner2 />
