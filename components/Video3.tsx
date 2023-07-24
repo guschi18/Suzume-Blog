@@ -18,7 +18,8 @@ import Link from "next/link";
                   
                 </video>
     </div>
-    <div className="flex justify-center ml-1 font-bold text-xs mt-4 lg:text-lg">Token Contract:{" "}<Link href={"https://etherscan.io/token/0x0B452278223D3954F4AC050949D7998e373e7E43"}>0x0B452278223D3954F4AC050949D7998e373e7E43</Link></div>
+    <div className="flex justify-center ml-1 font-semibold text-xs mt-4 lg:text-lg">Token Contract</div>
+    <div className="flex justify-center ml-1 font-semibold text-xs underline lg:text-lg"><Link href={"https://etherscan.io/token/0x0B452278223D3954F4AC050949D7998e373e7E43"}>0x0B452278223D3954F4AC050949D7998e373e7E43</Link></div>
     </div>
     )
     }
