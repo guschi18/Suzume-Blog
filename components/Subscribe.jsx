@@ -25,10 +25,11 @@ export default function SubscribePage() {
   };
 
   return (
-    <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <div className="pt-10 px-4 mx-auto max-w-screen-xl lg:pt-16 lg:px-6">
+       <hr className="my-6 border-black sm:mx-auto lg:my-8" />
         <div className="mx-auto max-w-screen-xs sm:text-center">
       <div className="mb-4 text-xl tracking-tight font-extrabold text-black sm:text-3xl">Subscribe to our newsletter</div>
-      <div className="mx-auto mb-8 max-w-2xl font-light text-gray-600 md:mb-12 sm:text-xl dark:text-gray-600">Don t miss any news and exciting announcements! Sign up now with your email address and stay updated through our blog.</div>
+      <div className="mx-auto mb-8 max-w-2xl text-xl md:mb-12 sm:text-xl">Don t miss any news and exciting announcements! Sign up now with your email address and stay updated through our blog.</div>
       <form onSubmit={subscribe}>
         <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
           <div className="relative w-full">

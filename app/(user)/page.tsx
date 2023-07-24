@@ -12,6 +12,8 @@ import Banner2 from "@/components/Banner2";
 import BlogList2 from "@/components/BlogList2";
 import Banner3 from "@/components/Banner3";
 import { Analytics } from '@vercel/analytics/react';
+import Slider from "@/components/Slider";
+
 
 
 
@@ -63,6 +65,7 @@ return (
   <Banner3 />
   <BlogList2 posts={posts2} />
   <Video3 />
+  <Slider />
   <Subscribe />
   <Footer />
   </>

@@ -1,7 +1,14 @@
+"use client"
+
+import Link from "next/link";
+
+  
   function Video(){
     return (
       <div>
-    <div className="flex justify-center mt-1 pt-4] ">
+        <hr className="my-6 border-black sm:mx-auto lg:my-8" />
+        <div className="mb-2 pt-4 pl-3 text-3xl tracking-tight font-extrabold underline text-black sm:text-4xl">How to buy</div>
+    <div className="flex justify-center pt-8 ">
     <video 
                     className="flex max-h-96 rounded-md playsinline"
                     controls
@@ -11,7 +18,7 @@
                   
                 </video>
     </div>
-    <div className="flex justify-center ml-3 font-serif font-semibold text-xs mt-4 lg:text-lg">Token Contract: 0x0B452278223D3954F4AC050949D7998e373e7E43</div>
+    <div className="flex justify-center ml-1 font-bold text-xs mt-4 lg:text-lg">Token Contract:{" "}<Link href={"https://etherscan.io/token/0x0B452278223D3954F4AC050949D7998e373e7E43"}>0x0B452278223D3954F4AC050949D7998e373e7E43</Link></div>
     </div>
     )
     }
