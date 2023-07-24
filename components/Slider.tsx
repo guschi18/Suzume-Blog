@@ -1,6 +1,6 @@
 "use client"
 
-import { Navigation, Pagination, Scrollbar, Autoplay} from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Image from 'next/image'
@@ -21,11 +21,18 @@ import Link from 'next/link';
         <div className="mb-2 pt-4 pl-3 text-3xl tracking-tight font-extrabold underline text-black sm:text-4xl">Official Shita-kiri Suzume Shop</div></Link>
         <div className='flex pt-10  justify-cente'>
     <Swiper
-        modules={[Navigation, Pagination, Scrollbar, Autoplay]}
-        slidesPerView={3}
-        autoplay
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+       modules={[Navigation, Pagination, Scrollbar, Autoplay]}
+       slidesPerView={3}
+       autoplay={{
+         delay: 5000,
+         disableOnInteraction: false,
+       }}
+       pagination={{
+         clickable: true,
+       }}
+       scrollbar={{
+         draggable: true,
+       }}
     >
       <SwiperSlide><Image className="object-contain cursor-pointer" 
             src="https://cdn.shopify.com/s/files/1/0714/8883/1773/products/unisex-heavy-blend-hoodie-black-front-63e826cc499c2.jpg?v=1676158692" width={2000}
