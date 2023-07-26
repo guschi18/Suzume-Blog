@@ -1,6 +1,6 @@
   function Video(){
     return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center mx-1 ">
     <video 
                     className="flex max-h-96 rounded-md playsinline"
                     controls

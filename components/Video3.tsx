@@ -5,7 +5,7 @@ import Link from "next/link";
   
   function Video(){
     return (
-      <div>
+      <div className="mx-1">
         <hr className="my-6 border-black sm:mx-auto lg:my-8" />
         <div className="mb-2 pt-4 pl-3 text-3xl tracking-tight font-extrabold underline text-black sm:text-4xl">How to buy</div>
     <div className="flex justify-center pt-8 ">
